@@ -1,0 +1,50 @@
+#hero {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 250px;
+    padding-top: 20px;
+    text-align: center;
+    background-image: url(../../Images/MinneapolisDark.png);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 70px;
+    color: #ffffff;
+    padding-top: 150px;
+    animation-name: heroAnimation;
+    animation-duration: 2s;
+}
+
+.heroH2 {
+    font-size: 40px;
+    color: #ffffff;
+    animation-name: heroAnimation;
+    animation-duration: 2s;
+}
+
+.logos {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    animation-name: heroAnimation;
+    animation-duration: 2s;
+}
+
+.logos:hover {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    animation-name: heroAnimation;
+    animation-duration: 2s;
+    -webkit-filter: brightness(.5);
+}
+
+@keyframes heroAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }

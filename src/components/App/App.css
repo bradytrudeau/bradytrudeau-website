@@ -31,3 +31,13 @@
     transform: rotate(360deg);
   }
 }
+
+.videoLink:link {
+  text-decoration: none;
+  color: #3277B5;
+}
+
+.videoLink:visited {
+  text-decoration: none;
+  color: #3277B5;
+}

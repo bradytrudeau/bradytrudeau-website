@@ -1,0 +1,73 @@
+.projects {
+    /* background-image: url(../../Images/gradient2.png);
+    background-size: cover; */
+    /* background: hsla(201, 99%, 36%, 1);
+    background: linear-gradient(360deg, hsla(201, 99%, 36%, 1) 0%, hsla(0, 0%, 0%, 1) 99%);
+    background: -moz-linear-gradient(360deg, hsla(201, 99%, 36%, 1) 0%, hsla(0, 0%, 0%, 1) 99%);
+    background: -webkit-linear-gradient(360deg, hsla(201, 99%, 36%, 1) 0%, hsla(0, 0%, 0%, 1) 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0177B5", endColorstr="#000000", GradientType=1 ); */
+    background: hsla(216, 78%, 12%, 1);
+    background: linear-gradient(360deg, hsla(216, 78%, 12%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(216, 78%, 12%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(216, 78%, 12%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#071B38", endColorstr="#000000", GradientType=1 );
+    padding-top: 10px;
+    padding-bottom: 850px;
+}
+
+.projectsH2 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projectsH3Top {
+    text-align: justify;
+    color: #ffffff;
+    margin-top: 185px;
+}
+
+.projectsH3Bottom {
+    text-align: justify;
+    color: #ffffff;
+    margin-top: 140px;
+}
+
+.projectVideo {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.projectVideo:hover {
+    text-align: center;
+    display: block;
+    -webkit-filter: brightness(.3);
+}
+
+.left-projects {
+    float: left;
+    width: 45%;
+  }
+
+  .right-projects {
+    float: right;
+    width: 45%;
+  }
+
+  .projectsCards {
+    font-size: 18px;
+    color: #000000;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectsP {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: justify;
+}
