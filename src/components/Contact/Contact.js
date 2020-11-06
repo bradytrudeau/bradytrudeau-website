@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import { GiSmartphone, GiMailbox, GiNewspaper } from 'react-icons/gi';
-import resume from "../../../src/resume.pdf";
+import resume from "../../../src/Images/resume.pdf";
 
 class Contact extends Component {
   render() {
