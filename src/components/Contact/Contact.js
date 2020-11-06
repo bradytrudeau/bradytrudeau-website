@@ -26,7 +26,6 @@ class Contact extends Component {
                     <h3 className="contactH3">Resume</h3>
                     <hr width="50%"></hr>
                     <a className="resumeLink" href={resume} rel="noreferrer" target="_blank"><p>Click to Download</p></a>
-                    <h1>TEST</h1>
                 </div>
             </div>
          </div>
