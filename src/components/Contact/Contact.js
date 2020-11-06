@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css';
 import { GiSmartphone, GiMailbox, GiNewspaper } from 'react-icons/gi';
-import resume from "../../../src/Images/resume.pdf";
+import resume from '../../Images/BradyTrudeauResume.pdf';
 
 class Contact extends Component {
   render() {
@@ -25,7 +25,7 @@ class Contact extends Component {
                     <h3 className="contactH3"><GiNewspaper size="50px" className="resume"/></h3>
                     <h3 className="contactH3">Resume</h3>
                     <hr width="50%"></hr>
-                    <a className="resumeLink" href={resume} target="_blank"><p>Click to Download</p></a>
+                    <a className="resumeLink" href={resume} rel="noreferrer" target="_blank"><p>Click to Download</p></a>
                 </div>
             </div>
          </div>
