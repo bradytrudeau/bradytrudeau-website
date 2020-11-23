@@ -1,27 +1,31 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import './Nav.css';
+import './NavMobile.css';
 
-class Nav extends Component {
+class NavMobile extends Component {
 
   render() {
     return (
-            <div className="nav">
-                <div className="nav-right">
+            <div className="nav-mobile">
+                <div className="nav-right-mobile">
                     <AnchorLink 
                         href='#about'
-                        className="nav-link">
+                        className="nav-link-mobile">
                             ABOUT
                     </AnchorLink>
+                </div>
+                <div className="nav-right-mobile">
                     <AnchorLink 
                         href='#projects'
-                        className="nav-link">
+                        className="nav-link-mobile">
                             PROJECTS
                     </AnchorLink>
+                </div>
+                <div className="nav-right-mobile">
                     <AnchorLink 
                         href='#contact'
-                        className="nav-link">
+                        className="nav-link-mobile">
                             CONTACT
                     </AnchorLink>
                 </div>
@@ -30,4 +34,4 @@ class Nav extends Component {
   }
 }
 
-export default Nav;
+export default NavMobile;
