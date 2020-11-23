@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from '../Nav/Nav';
 import Hero from '../Hero/Hero';
+import HeroMobile from '../HeroMobile/HeroMobile';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
@@ -33,7 +34,7 @@ componentDidMount() {
       <div>
         {this.state.isMobile ? 
           <div>
-            <Hero/>
+            <HeroMobile/>
             <AboutMobile/>
             <ProjectsMobile/>
             <ContactMobile/>
