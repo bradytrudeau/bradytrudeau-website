@@ -12,7 +12,7 @@ class Projects extends Component {
             <div class="projectsCards">
                   <div className="left-projects">
                   <h2 className="projectsH2">PROJECTS</h2>
-                    <a href="https://github.com/bradytrudeau/click-app" target="_blank">
+                    <a href="https://polar-everglades-02135.herokuapp.com/" target="_blank">
                         <img src={click} className="projectVideo"></img>
                     </a>
                     <a href="https://github.com/Playworks/playworks-step-challenge" target="_blank">
