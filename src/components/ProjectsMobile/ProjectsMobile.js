@@ -12,7 +12,7 @@ class ProjectsMobile extends Component {
             <div class="projectsCardsMobile">
                   <div className="left-projectsMobile">
                   <h2 className="projectsH2Mobile">PROJECTS</h2>
-                    <a href="https://github.com/bradytrudeau/click-app" target="_blank">
+                    <a href="https://polar-everglades-02135.herokuapp.com/" target="_blank">
                         <img src={click} className="projectVideoMobile"></img>
                     </a>
                     <h3 className="projectsH3TopMobile">Click! Metronome App</h3>
