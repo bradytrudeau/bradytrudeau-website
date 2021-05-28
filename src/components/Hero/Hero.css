@@ -2,26 +2,80 @@
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 250px;
-    padding-top: 20px;
     text-align: center;
-    background-image: url(../../Images/MinneapolisDark.png);
-    background-size: cover;
 }
 
-.h1 {
+.icon {
     font-size: 70px;
-    color: #ffffff;
-    padding-top: 150px;
-    animation-name: heroAnimation;
-    animation-duration: 2s;
+    color: #98CAD8;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 
-.heroH2 {
-    font-size: 40px;
-    color: #ffffff;
-    animation-name: heroAnimation;
-    animation-duration: 2s;
+.fwDzZx {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50% !important;
+    height: 50% !important;
 }
+
+.logo {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-record {
+    font-size: 14px;
+    background: #98CAD8;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.file-upload {
+    font-size: 14px;
+    background: #E6E6E6;
+    border: 0;
+    color: #0560AA;
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 5px;
+ }
+ 
+ #file-upload {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+ }
+
+ #video-record {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+ }
 
 .logos {
     padding-top: 20px;
@@ -39,12 +93,3 @@
     animation-duration: 2s;
     -webkit-filter: brightness(.5);
 }
-
-@keyframes heroAnimation {
-    from {
-      opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-  }
