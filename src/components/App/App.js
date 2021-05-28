@@ -1,31 +1,54 @@
 import React, { Component } from 'react';
 import './App.css';
+import Nav from '../Nav/Nav';
 import Hero from '../Hero/Hero';
-import Logo from '../../Images/rbc-logo.png';
-import {
-  BrowserView,
-  MobileView,
-  isBrowser,
-  isMobile
-} from "react-device-detect";
-import RecordView from '../RecordView/RecordView';
-import UploadView from '../UploadView/UploadView';
+import HeroMobile from '../HeroMobile/HeroMobile';
+import About from '../About/About';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
+import AboutMobile from '../AboutMobile/AboutMobile';
+import ProjectsMobile from '../ProjectsMobile/ProjectsMobile';
+import ContactMobile from '../ContactMobile/ContactMobile';
+import NavMobile from '../NavMobile/NavMobile';
+
 
 class App extends Component {
+  state = {
+    isMobile: false
+}
+
+componentDidMount() {
+  if (window.innerWidth < 1250 && this.state.isMobile === false) {
+    this.setState({isMobile: true})
+  }
+    window.addEventListener('resize', () => {
+        this.setState({
+            isMobile: window.innerWidth < 1250
+        });
+    }, false);
+}
 
   render() {
     return (
-      <div className="App">
-        <img src={Logo} className="logo"></img>
+      <div>
+        {this.state.isMobile ? 
           <div>
-            {/* <Hero/> */}
-            <MobileView>
-              <RecordView/>
-            </MobileView>
-            <BrowserView>
-              <UploadView/>
-            </BrowserView>
+            <HeroMobile/>
+            <AboutMobile/>
+            <ProjectsMobile/>
+            <ContactMobile/>
+            <Footer/>
           </div>
+          :
+          <div>
+            <Hero/>
+            <About/>
+            <Projects/>
+            <Contact/>
+            <Footer/>
+          </div>
+        }
       </div>
     );
   }
